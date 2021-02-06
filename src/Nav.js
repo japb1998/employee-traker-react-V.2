@@ -4,7 +4,7 @@ function Nav () {
     return (
     <div className="nav-bar">
         <ul>
-        <li className="nav-item">
+        {/* <li className="nav-item">
         <Link to="/" >
           Home
         </Link>
@@ -13,9 +13,9 @@ function Nav () {
         <Link to="/dashboard" >
          Dashboard
         </Link>
-      </li>
+      </li> */}
       <li className="nav-item">
-        <Link to="/employee" >
+        <Link to="/" >
           Employee
         </Link>
       </li>
